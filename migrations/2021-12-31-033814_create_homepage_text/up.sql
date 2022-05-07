@@ -1,0 +1,5 @@
+CREATE TABLE homepage_text (
+   id SERIAL PRIMARY KEY,
+   title VARCHAR NOT NULL UNIQUE,
+   body TEXT NOT NULL
+)
